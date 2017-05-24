@@ -20,15 +20,12 @@ $('.save-button').on('click', function() {
     <article class="idea-card">
       <div class="card-top">
         <h2>${ideaTitle}</h2>
-        <img src="assets/delete.svg" class="delete icon">
-        <img src="assets/delete-hover.svg" class="delete-hover">
+        <button class="delete icon"></button>
       </div>
       <p class="idea-text">${ideaBody}</p>
       <div class="card-bottom">
-        <img src="assets/upvote.svg" class="up-vote icon">
-        <img src="assets/upvote-hover.svg" class="up-vote-hover icon">
-        <img src="assets/downvote.svg" class="down-vote icon">
-        <img src="assets/downvote-hover.svg" class="down-vote-hover icon" class="down-vote-hover"
+        <button class="up-vote icon"></button>
+        <button> class="down-vote icon"></button>
         <p class="quality">quality: swill</p>
       </div>
       <hr>
@@ -54,15 +51,12 @@ $('.save-button').on('click', function() {
         var ideaCard = `<article class="idea-card">
             <div class="card-top">
               <h2>${ideaTitle}</h2>
-              <img src="assets/delete.svg" class="delete icon">
-              <img src="assets/delete-hover.svg" class="delete-hover">
+              <button class="delete icon"></button>
             </div>
             <p class="idea-text">${ideaBody}</p>
             <div class="card-bottom">
-              <img src="assets/upvote.svg" class="up-vote icon">
-              <img src="assets/upvote-hover.svg" class="up-vote-hover icon">
-              <img src="assets/downvote.svg" class="down-vote icon">
-              <img src="assets/downvote-hover.svg" class="down-vote-hover icon" class="down-vote-hover"
+              <button class="up-vote icon"></button>
+              <button class="down-vote icon"></button>
               <p class="quality">quality: swill</p>
             </div>
             <hr>
@@ -85,16 +79,13 @@ function newIdeaCard(){
   var ideaCard = $('.idea-container').prepend(`
     <article class="idea-card">
       <div class="card-top">
-        <h2>${ideaTitle}</h2>
-        <img src="assets/delete.svg" class="delete icon">
-        <img src="assets/delete-hover.svg" class="delete-hover">
+        <h2>Example Idea 1</h2>
+        <button class="delete icon"></button>
       </div>
-      <p class="idea-text">${ideaBody}</p>
+      <p class="idea-text">I have no ideas because my brain is filled with coding stuff...</p>
       <div class="card-bottom">
-        <img src="assets/upvote.svg" class="up-vote icon">
-        <img src="assets/upvote-hover.svg" class="up-vote-hover icon">
-        <img src="assets/downvote.svg" class="down-vote icon">
-        <img src="assets/downvote-hover.svg" class="down-vote-hover icon" class="down-vote-hover"
+        <button class="up-vote icon"></button>
+        <button class="down-vote icon"></button>
         <p class="quality">quality: swill</p>
       </div>
       <hr>
